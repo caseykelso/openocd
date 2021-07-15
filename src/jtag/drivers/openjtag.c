@@ -123,7 +123,7 @@ static struct libusb_device_handle *usbh;
 #define CY7C65215_USB_TIMEOUT   100
 
 static const uint16_t cy7c65215_vids[] = {0x04b4, 0};
-static const uint16_t cy7c65215_pids[] = {0x0007, 0};
+static const uint16_t cy7c65215_pids[] = {0x00f3, 0};
 
 #define CY7C65215_JTAG_CLASS     0xff
 #define CY7C65215_JTAG_SUBCLASS  0x04
